@@ -5,6 +5,7 @@
 
 </head>
 
+
 <body>
     <h1>Notas desde base de datos</h1>
     <a href="new_note">Nueva nota</a>
