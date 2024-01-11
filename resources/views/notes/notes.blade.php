@@ -2,14 +2,14 @@
 <html>
 
 <head>
-
+    @vite(['resources/js/app.js', 'resources/css/app.scss']) 
 </head>
 
 
 <body>
     <h1>Notas desde base de datos</h1>
     <a href="new_note">Nueva nota</a>
-    <table border="1">
+    <table border="1" class="table table-responsive">
         <thead>
             <tr>
                 <th>Nombre</th>
